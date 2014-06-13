@@ -12,10 +12,10 @@ There are a few ways to get this template:
 If you use [Git](http://www.git-scm.com/):
 
 ````bash
-git clone https://github.com/soapdog/mortar-phaser-game-stub.git
+git clone https://github.com/firefoxos-gamedev/mortar-phaser-game-stub.git
 ````
 
-Or download the latest version in this [ZIP file](https://github.com/soapdog/mortar-phaser-game-stub/archive/master.zip).
+Or download the latest version in this [ZIP file](https://github.com/firefoxos-gamedev/mortar-phaser-game-stub/archive/master.zip).
 
 
 ## Usage
