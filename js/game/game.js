@@ -1,4 +1,4 @@
-BasicGame.Game = function(game) {};
+GameStates.Game = function(game) {};
 
 /**
  * This is the Game game state. Its our game loop responsible for the game itself.
@@ -10,7 +10,7 @@ BasicGame.Game = function(game) {};
  * Refer to: http://docs.phaser.io/Phaser.State.html
  */
 
-BasicGame.Game.prototype = {
+GameStates.Game.prototype = {
     create: function() {
 
         // Add the background
@@ -28,8 +28,8 @@ BasicGame.Game.prototype = {
 
     update: function() {
         /*
-        This function is called in a loop using requestAnimationFrame(). It is our game loop, our heartbeat. Every time
-        it is called we process the user input and update the display.
+        This function is called in a loop using requestAnimationFrame(). It is our game loop, our heartbeat.
+        Every time it is called we process the user input and update the display.
          */
 
 
