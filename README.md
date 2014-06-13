@@ -36,6 +36,12 @@ You'll need to use the IP address when using a physical device. Change the port 
 
 [Phaser](http://phaser.io) is a proven open source framework for creating HTML5 games. It has many features such as input control, game loops, camera control, tilemaps and more all baked in. Its a great tool to help you create your game and not focus on trivia stuff that is not related to your project or vision.
 
+### Updating phaser
+The phaser framework in this template was installed using the [Bower](http://bower.io) tool. You can update to newer versions easily if you have bower installed. To update phaser use:
+
+```bash
+$ bower update
+```
 
 ## Code walkthrough
 The code is contained in three files &mdash boot.js, preloader.js, game.js &mdash each serves a different purpose and is explained below:
@@ -52,4 +58,3 @@ This is the first game state. Its responsible for loading all the assets needed 
 This another game state. It is our **gameloop** in a real game, it would be where you process user input and update your display.
 
 Basically the **preload** state loads the resources to be used in the **game** state.
-
