@@ -4,7 +4,7 @@ GameStates.Game = function(game) {};
  * This is the Game game state. Its our game loop responsible for the game itself.
  *
  * In the create() function we setup the display.
- * In the update() function we do the gameloop.
+ * In the update() function we do the game loop.
  *
  * To learn more about states refer to:
  * Refer to: http://docs.phaser.io/Phaser.State.html
