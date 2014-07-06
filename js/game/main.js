@@ -1,3 +1,10 @@
+/**
+ * below we declare GameStates which is an empty object that will contain our game states.
+ * We're using this to avoid having multiple globals around.
+ */
+
+var GameStates = {};
+
 
 document.addEventListener("DOMContentLoaded", function(event)  {
 
